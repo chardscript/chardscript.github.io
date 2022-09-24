@@ -1,55 +1,118 @@
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChardScript - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+  <link rel="stylesheet" href="scribbler-global.css">
+  <link rel="stylesheet" href="scribbler-landing.css">
+  <link rel="author" href="humans.txt">
+</head>
 
-<title>ChardScript | Home</title>
-  
-<meta name="description" content="The official home of the ChardScript Programming Language">
+<body>
+  <nav>
+    <div class="logo"></div>
+    <ul class="menu">
+      <div class="menu__item toggle"><span></span></div>
+      <li class="menu__item"><a href="./" class="link link--dark"><i class="fa fa-home"></i> Home</a>
+      <li class="menu__item">
+        <a href="./about.html" class="link link--dark"><i class="fa fa-info"></i> About</a>
+      </li>
+      <li class="menu__item">
+        <a href="./download.html" class="link link--dark"><i class="fa fa-download"></i> Downloads</a>
+      </li>
+      <li class="menu__item">
+        <a href="./news.html" class="link link--dark"><i class="fa fa-newspaper-o"></i> News</a>
+      </li>
+      <li class="menu__item"><a href="https://gamingmod.gitbook.io/" class="link link--dark"><i class="fa fa-book"></i> Documentation</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1 class="hero__title">ChardScript</h1>
+    <p class="hero__description">Simple, Elegant, Easy Functional Programming.</p>
+  </div>
+  <div class="hero__terminal">
+    <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">shell ~ $ </code>
+      </pre>
+  </div>
+    <div class="wrapper">
+      <!--
+      <div class="installation">
+        <h3 class="section__title">Installation</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="mac">mac</li>
+            <li class="tab" data-tab="linux">linux</li>
+            <li class="tab" data-tab="win">win</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active mac">$  brew install scribbler</code>
+            <code class="tab__pane linux">$  apt-get install scribbler</code>
+            <code class="tab__pane win">$  gem install scribbler</code>
+          </pre>
+        </div>
+      </div>
+      -->
+      <!--<span class="code code--inline">bindings.json</span>-->
+  <div class="feature">
+    <div class="feature__item">
+      <h3 class="section__title">About</h3>
+      <p>The ChardScript programming language is easy to use and the Syntaxs are simple. Inspired by LuaScript and Syntax from BASIC and ShellScript. This is the place for you to learn how to use this programming language and learn.</p>
+    </div>
+    <div class="feature__item">
+      <h3 class="section__title">Get Started</h3>
+      <p>Whether you are new to programming or an experienced developer, learning and using ChardScript is easy.<br><br>
+      Start with reading our <strong><a href="./doc.html">Documentation</a></strong>
+      </p>
+    </div>
+    <div class="feature__item">
+      <h3 class="section__title">Download</h3>
+      <p>ChardScript is free software distributed in source code. It may be used for any purpose, including commercial purposes, at absolutely no cost. All versions are available for download.<br>
+      Lastest: <strong>1.0.0</strong>
+      </p>
+    </div>
+  </div>
+  <div class="callout">
+    <p>Download our lastest version of ChardScript right now!</p>
+    <a href="doc.html" class="button--primary">Download</a>
+  </div>
+  </div>
+  <div class="changelog">
+    <div class="wrapper">
+      <h3 class="section__title">Changelog</h3>
+      <div class="changelog__item">
+        <div class="changelog__meta">
+          <h4 class="changelog__title">v1.0.0</h4>
+          <small class="changelog__date">9/7/2022</small>
+        </div>
+        <div class="changelog__detail">
+          <ul>
+            <li>20 keywords</li>
+            <li>13 built-in functions</li>
+            <li>Window 7+ Supported</li>
+          </ul>
+        </div>
+      </div>
+      <!--
+      <div class="changelog__callout">
+        <a href="#" class="button--secondary">Checkout Full Log</a>
+      </div>
+      -->
+    </div>
+  </div>
+  <footer class="footer">Website and Programming Language was created by GamingMod and distributed under MIT license.</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="scribbler.js"></script>
+</body>
 
-<link rel="stylesheet" href="./assets/style.css">
-
-<link rel="icon" href="./assets/images/favicon.png">
-<link rel="apple-touch-icon" href="./assets/images/favicon.png">
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
-
-  </head>
-<header>
-   <nav>
-  <a href="/">Home</a>
-  
-  <a href="/about.html">About</a>
-  
-  <a href="/download.html">Download</a>
-  
-  <a href="/news.html">News</a>
-  
-  <a href="https://gamingmod.gitbook.io">Documentation</a>
-  
-</nav>
-
-      <h1>ChardScript</h1>
-      <p>Simple, Elegant, Easy Functional Programming.</p>
-    </header>
-<main>
-<h2>Overview</h2>
-<p>The ChardScript programming language is easy to use and the Syntaxs are simple. Inspired by LuaScript and Syntax from BASIC and ShellScript. This is the place for you to learn how to use this programming language and learn. And here are all the features that ChardScript can do:</p>
-<ul>
-  <li>Run code quickly, no need to wait.</li>
-  <li>Support for PC operating systems.</li>
-  <li>Low capacity, stable computer.</li>
-  <li>Fully meet the needs of new developers.</li>
-  <li>Easy to use and easy to learn.</li>
-  <li>Free, no cost to buy.</li>
-</ul>
-</main>
-<a href="/download.html"><button>Download ChardScript</button></a>
-
-
-
-<footer>
-      <p>Website and Programming Language was created by GamingMod and distributed under MIT license</p>
-  <small>© 2021 - 2022 ChardScript</small>
-    </footer>
-   
- <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
+</html>
